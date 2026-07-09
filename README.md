@@ -80,7 +80,7 @@ Bronze Layer → Silver Layer → Gold Layer
 ```
 
 #### 🥉 Bronze Layer — [[Bronze Layer](./Medallion%20architecture/Bronze_layer.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Medallion%20architecture/Bronze_layer/Bronze_layer.ipynb
-)
+
 
 
 - Raw CSV (209,306 rows × 24 columns) read directly into a pandas DataFrame
