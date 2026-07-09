@@ -1,0 +1,13 @@
+Weather,Predicted_Crash_Severity,Predicted_Crash_Count
+"BLOWING SAND, SOIL, DIRT",No Injury,1
+BLOWING SNOW,No Injury,127
+CLEAR,No Injury,164700
+CLOUDY/OVERCAST,No Injury,7533
+FOG/SMOKE/HAZE,No Injury,360
+FREEZING RAIN/DRIZZLE,No Injury,510
+OTHER,No Injury,627
+RAIN,No Injury,21703
+SEVERE CROSS WIND GATE,No Injury,32
+SLEET/HAIL,No Injury,308
+SNOW,No Injury,6871
+UNKNOWN,No Injury,6534

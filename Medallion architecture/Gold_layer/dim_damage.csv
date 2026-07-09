@@ -1,0 +1,4 @@
+Cost_of_damage,Damage_level,Damage_Key
+"$501 - $1,500",2,1
+"OVER $1,500",3,2
+$500 OR LESS,1,3

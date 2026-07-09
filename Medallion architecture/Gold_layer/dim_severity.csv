@@ -1,0 +1,6 @@
+Crash_severity,Severity_Key
+No Injury,1
+Moderate,2
+Major,3
+Minor,4
+Fatal,5

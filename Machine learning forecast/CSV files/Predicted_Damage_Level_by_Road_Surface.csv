@@ -1,0 +1,8 @@
+roadway_surface_cond,Predicted_Damage_Level,Predicted_Crash_Count
+DRY,3,155905
+ICE,3,1303
+OTHER,3,438
+"SAND, MUD, DIRT",3,40
+SNOW OR SLUSH,3,6203
+UNKNOWN,3,12509
+WET,3,32908

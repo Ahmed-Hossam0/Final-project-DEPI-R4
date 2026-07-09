@@ -1,0 +1,25 @@
+crash_hour,AM/PM,Time Buckets,Time_Key
+13,PM,Afternoon,1
+0,AM,Late Night,2
+10,AM,Morning,3
+19,PM,Evening,4
+14,PM,Afternoon,5
+11,AM,Morning,6
+18,PM,Evening,7
+17,PM,Afternoon,8
+20,PM,Evening,9
+16,PM,Afternoon,10
+7,AM,Morning,11
+23,PM,Night,12
+15,PM,Afternoon,13
+1,AM,Late Night,14
+12,PM,Afternoon,15
+8,AM,Morning,16
+6,AM,Morning,17
+2,AM,Late Night,18
+22,PM,Night,19
+9,AM,Morning,20
+21,PM,Evening,21
+5,AM,Late Night,22
+4,AM,Late Night,23
+3,AM,Late Night,24
