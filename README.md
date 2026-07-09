@@ -79,7 +79,8 @@ Bronze Layer → Silver Layer → Gold Layer
   (Raw)         (Cleaned)      (Refined)
 ```
 
-#### 🥉 Bronze Layer — [Bronze Layer](./Medallion%20architecture/Bronze_layer.ipynb)
+#### 🥉 Bronze Layer — [[Bronze Layer](./Medallion%20architecture/Bronze_layer.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Medallion%20architecture/Bronze_layer/Bronze_layer.ipynb
+)
 
 
 - Raw CSV (209,306 rows × 24 columns) read directly into a pandas DataFrame
@@ -93,7 +94,8 @@ Bronze_df.describe()
 Bronze_df.to_csv("/content/sample_data/Bronze.csv", index=False)
 ```
 
-#### 🥈 Silver Layer — [Silver Layer](./Medallion%20architecture/Silver_Layer.ipynb)
+#### 🥈 Silver Layer — [[Silver Layer](./Medallion%20architecture/Silver_Layer.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Medallion%20architecture/Silver_layer/Silver_Layer.ipynb
+)
 
 
 Twelve sequential cleaning & enrichment steps applied — **zero rows dropped**, every row of the 209,306 preserved:
@@ -113,7 +115,8 @@ Twelve sequential cleaning & enrichment steps applied — **zero rows dropped**,
 
 Output saved as `Silver.csv`.
 
-#### 🥇 Gold Layer — [Gold Layer](./Medallion%20architecture/Gold_Layer.ipynb)
+#### 🥇 Gold Layer — [[Gold Layer](./Medallion%20architecture/Gold_Layer.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Medallion%20architecture/Gold_layer/Gold_Layer.ipynb
+)
 
 - Enriched Silver DataFrame split into **8 dimension tables + 1 fact table**
 - Each dimension assigned a sequential surrogate key, joined back onto the fact rows
@@ -129,7 +132,7 @@ fact_accidents = fact[[
 fact_accidents.insert(0, "Accident_Key", range(1, len(fact_accidents) + 1))
 ```
 
-#### 📈 EDA & AI Insights — [`EDA.ipynb`](./EDA.ipynb)
+#### 📈 EDA & AI Insights — [[`EDA.ipynb`](./EDA.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Exploratory_data_analysis/EDA.ipynb)
 
 - Reads all 9 Gold-layer CSVs, runs systematic null/duplicate checks (all passed — 0 nulls, 0 duplicates)
 - Rebuilds the denormalized master table by merging `fact_accidents` with all 8 dimensions
