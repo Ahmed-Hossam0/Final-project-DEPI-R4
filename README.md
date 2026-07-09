@@ -79,7 +79,7 @@ Bronze Layer → Silver Layer → Gold Layer
   (Raw)         (Cleaned)      (Refined)
 ```
 
-#### 🥉 Bronze Layer — [[Bronze Layer](./Medallion%20architecture/Bronze_layer.ipynb)](https://github.com/Ahmed-Hossam0/Final-project-DEPI-R4/blob/main/Medallion%20architecture/Bronze_layer/Bronze_layer.ipynb
+#### 🥉 Bronze Layer — 🥉 Bronze Layer — [Bronze_layer.ipynb](./Medallion%20architecture/Bronze_layer/Bronze_layer.ipynb)
 
 
 
