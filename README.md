@@ -79,7 +79,8 @@ Bronze Layer → Silver Layer → Gold Layer
   (Raw)         (Cleaned)      (Refined)
 ```
 
-#### 🥉 Bronze Layer — [`Bronze_layer.ipynb`](./Bronze_layer.ipynb)
+#### 🥉 Bronze Layer — [Bronze Layer](./Medallion%20architecture/Bronze_layer.ipynb)
+
 
 - Raw CSV (209,306 rows × 24 columns) read directly into a pandas DataFrame
 - Profiled with `.info()` / `.describe()` — confirmed **zero missing values** across all fields
@@ -92,7 +93,8 @@ Bronze_df.describe()
 Bronze_df.to_csv("/content/sample_data/Bronze.csv", index=False)
 ```
 
-#### 🥈 Silver Layer — [`Silver_Layer.ipynb`](./Silver_Layer.ipynb)
+#### 🥈 Silver Layer — [Silver Layer](./Medallion%20architecture/Silver_Layer.ipynb)
+
 
 Twelve sequential cleaning & enrichment steps applied — **zero rows dropped**, every row of the 209,306 preserved:
 
@@ -111,7 +113,7 @@ Twelve sequential cleaning & enrichment steps applied — **zero rows dropped**,
 
 Output saved as `Silver.csv`.
 
-#### 🥇 Gold Layer — [`Gold_Layer.ipynb`](./Gold_Layer.ipynb)
+#### 🥇 Gold Layer — [Gold Layer](./Medallion%20architecture/Gold_Layer.ipynb)
 
 - Enriched Silver DataFrame split into **8 dimension tables + 1 fact table**
 - Each dimension assigned a sequential surrogate key, joined back onto the fact rows
